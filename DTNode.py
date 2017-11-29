@@ -1,3 +1,4 @@
+# this class contains all information about each node in the decision tree for the learning process
 class DTNode(object):
 	def __init__(self, attribute):
 		self.attribute = attribute
