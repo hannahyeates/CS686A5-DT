@@ -1,5 +1,7 @@
 # CS686A5-Decision Tree
 
+NOTE: THIS IS WRITTEN USING PYTHON 2.7.6. Please ensure that this version is installed before running code
+
 This directory contains three files: 
 1) DecisionTreeTrain.py which contains all code for learning the decision tree from the training data set
 2) DTNode.py which is the class that contains the node structure for learning the decision tree

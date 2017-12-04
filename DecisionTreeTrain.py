@@ -68,7 +68,7 @@ def allSameClassification(examples):
 		return True
 	value = examples[0][16]
 	for i in range(1, len(examples)):
-		if examples[i][16]<>value:
+		if examples[i][16]!=value:
 			return False
 	return True
 
@@ -171,7 +171,7 @@ def printDT(dt, attributes):
 	q.append(dt)
 	while len(q) > 0:
 		n = q.popleft()
-		if n.leftChild <> None or n.rightChild <> None:
+		if n.leftChild != None or n.rightChild != None:
 			f.write(str(n.attribute) + ',' + str(n.threshold) + ',' + str(n.leftChild.attribute) + ', ' + str(n.rightChild.attribute) +'\n') 
 	
 		if n.leftChild is not None:
